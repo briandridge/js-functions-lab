@@ -18,25 +18,27 @@ function maxOfThree(one, two, three) {
 
 // Question 3
 function isCharacterAVowel(x) {
-	if (x == "a" || x == "e" || x == "i" || x == "o" || x == "u" ||) {
+	if (x == "a" || x == "e" || x == "i" || x == "o" || x == "u" ){
 		return "True";
-	} else {
+	} 
+	else {
 		return "False";
 	}
-	}
-
-	var vowels = [a,e,i,o,u];
-	function checkvowels();
-		for (var i = 0; i < vowels.length; i++) {
-			vowels[i]
-		}
-	if (x === a ||) {}
-
 }
+	
+
+	
+
+
 
 // Question 4
-function sumArray() {
- 
+var sum = [1,2,3,4];
+function sumArray(x) {
+ for (var i = x.length - 1; i >= 0; i--) {
+ 	x=x+[i];
+ 	console.log(x);
+ }
+ return x;
 }
 
 
@@ -44,6 +46,12 @@ function sumArray() {
 function multiplyArray() {
 
 }
+
+
+
+
+
+
 
 
 // Question 5
